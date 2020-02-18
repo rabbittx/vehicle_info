@@ -46,6 +46,9 @@ namespace Vehicle_info
             this.Base = Base;
             this.ID++;
         }
+        ~vehicle() {
+
+        }
 
         public virtual List<string> add_new_vehicle_str_info()
         {
