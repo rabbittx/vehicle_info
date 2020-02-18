@@ -44,14 +44,14 @@ namespace Vehicle_info
             switch (choose)
             {
                 case 1: Car car = new Car();car.Main() ; break;
-                case 2: Console.WriteLine("you for new bus "); break;
+                case 2: bus bus = new bus();bus.Main(); break;
                 case 3: Console.WriteLine("you for new truck"); break;
-                case 4: Console.WriteLine("you for new van"); break;
-                case 5: Console.WriteLine("you for new motorcycle"); break;
+                case 4: van van = new van();van.Main(); break;
+                case 5: motorcycle motorcycle = new motorcycle();motorcycle.Main() ; break;
                 default: Console.WriteLine("worng chooser retry !"); Add_new_vehicle(); break;
 
             }
-
+            
 
         }
     }
